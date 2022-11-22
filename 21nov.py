@@ -3,7 +3,6 @@ from typing import List
 A = input("Введите массив строк через пробел: ").rstrip()
 A = A.split(" ")
 print(A)
-L = len(A)
 B = []
 
 for i in A:
